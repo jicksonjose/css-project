@@ -983,10 +983,220 @@ nav ul li {
 /*=========================Contact us===============================*/
 /*---------------------------------------------------------------*/
 
-#contact-section-1{
+#contact-section-1 {
     border-top: 1px solid var(--neutral-200, #D4D4D4);
     background: #FBFBFB;
     padding: 80px 0px;
     background-image: url(/assets/image/about/background.png);
     background: linear-gradient(180deg, #FFF 0%, #F8EDD6 100%);
+
+
+}
+
+
+#contact-section-1 .main {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background: linear-gradient(to right, white 80%, #57331B 20%);
+    border-radius: 24px;
+    padding: 26px 50px;
+    box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+#contact-section-1 .main .left-div {
+    width: 60%;
+}
+
+#contact-section-1 .main .left-div h3:first-child {
+    color: #57331B;
+    font-family: "dmsans-regular";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+
+}
+
+#contact-section-1 .main .left-div h3 span {
+    color: #8DC73F;
+    font-family: "dmsans-regular";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+#contact-section-1 .main .left-div p {
+    color: #615F59;
+    font-family: "dmsans-regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#contact-section-1 .main .left-div .form {
+    margin-top: 0px;
+}
+
+#contact-section-1 .main .left-div .form p {
+    color: #615F59;
+    font-family: "dmsans-regular";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    padding-top: 10px;
+}
+
+#contact-section-1 .main .left-div .form input {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--neutral-200, #D4D4D4);
+    color: var(--neutral-button, #ADADAD);
+    font-family: "dmsans-regular";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#contact-section-1 .main .left-div .form textarea {
+    width: 100%;
+    padding-left: 20px;
+    height: 107px;
+    border-radius: 4px;
+    border: 1px solid var(--neutral-200, #D4D4D4);
+    border: 1px solid var(--neutral-200, #D4D4D4);
+    color: var(--neutral-button, #ADADAD);
+    font-family: "dmsans-regular";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 15px;
+}
+
+#contact-section-1 .main .left-div .contact-detail {
+    display: flex;
+}
+
+#contact-section-1 .main .left-div .form button {
+    display: flex;
+    height: 50px;
+    padding: 15px 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #8DC73F;
+    align-self: stretch;
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+
+#contact-section-1 .main .left-div .contact-detail {
+    display: flex;
+    margin: 15px 0px;
+}
+
+#contact-section-1 .main .left-div .contact-detail .phone {
+    display: flex;
+    margin: 0 30px;
+}
+
+#contact-section-1 .main .left-div .contact-detail .email {
+    display: flex;
+}
+
+#contact-section-1 .main .left-div .contact-detail .email .image {
+    padding-right: 15px;
+}
+
+#contact-section-1 .main .left-div .contact-detail .phone .image {
+    padding-right: 15px;
+}
+
+#contact-section-1 .main .left-div .contact-detail .email .image img {
+    display: block;
+    width: 100%;
+}
+
+#contact-section-1 .main .left-div .contact-detail .phone .image img {
+    display: block;
+    width: 100%;
+}
+
+#contact-section-1 .main .left-div .contact-detail p:nth-child(1) {
+    color: var(--black, #000);
+    font-family: "dmsans-regular";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+}
+
+#contact-section-1 .main .left-div .contact-detail p:nth-child(2) {
+    color: #8DC73F;
+    font-family: "dmsans-regular";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+}
+
+
+
+/*===========================Product Page================================*/
+/*----------------------------------------------------------------------*/
+
+#product-section1 {
+    padding: 80px 0;
+    gap: 16px;
+    border-top: 1px solid var(--neutral-200, #D4D4D4);
+}
+
+#product-section1 p {
+    width: 60%;
+    margin: 20px auto;
+}
+
+#product-section1 h2 {
+    color: #232323;
+    font-family: "dmsans-regular";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+#product-section1 span {
+    color: #8DC73F;
+    font-family: "dmsans-regular";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#product-section1 p {
+    color: var(--neutral-300-paragraph, #747474);
+    text-align: center;
+    font-family: "dmsans-regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: capitalize;
 }
