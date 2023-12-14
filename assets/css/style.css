@@ -1166,12 +1166,12 @@ nav ul li {
     border-top: 1px solid var(--neutral-200, #D4D4D4);
 }
 
-#product-section1 p {
+#product-section1 .content p {
     width: 60%;
     margin: 20px auto;
 }
 
-#product-section1 h2 {
+#product-section1 .content h2 {
     color: #232323;
     font-family: "dmsans-regular";
     font-size: 42px;
@@ -1181,7 +1181,7 @@ nav ul li {
     text-align: center;
 }
 
-#product-section1 span {
+#product-section1 .content span {
     color: #8DC73F;
     font-family: "dmsans-regular";
     font-size: 42px;
@@ -1190,7 +1190,7 @@ nav ul li {
     line-height: normal;
 }
 
-#product-section1 p {
+#product-section1 .content p {
     color: var(--neutral-300-paragraph, #747474);
     text-align: center;
     font-family: "dmsans-regular";
@@ -1198,5 +1198,209 @@ nav ul li {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    text-transform: capitalize;
+}
+
+#product-section1 .product_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+#product-section1 .product_div .product_details {
+
+    margin: 0 auto;
+    padding: 20px 58px 10px 58px;
+
+}
+
+#product-section1 .product_div .product_details:hover {
+    box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+}
+
+#product-section1 .product_div .product_details .detail {
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+#product-section1 .product_div .product_details .detail h4 {
+    color: #000;
+    font-family: "dmsans-regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#product-section1 .product_div .product_details .detail p:nth-child(2) {
+    color: #C3C3C3;
+    font-family: "dmsans-regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#product-section1 .product_div .product_details .detail p:nth-child(3) {
+    font-family: "dmsans-regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+
+/*===================== Product Detail Page =======================*/
+/*---------------------------------------------------------------*/
+
+#product_page_section {
+    padding: 80px 0;
+    border-top: 1px solid var(--neutral-200, #D4D4D4);
+
+}
+
+#product_page_section .main {
+    display: flex;
+    gap: 20px;
+
+}
+
+#product_page_section .main .product-images .image-1 img {
+    display: block;
+    width: 100%;
+}
+
+#product_page_section .main .product-images .image-2 img {
+    display: block;
+    width: 100%;
+}
+
+#product_page_section .main .product-images .image-3 img {
+    display: block;
+    width: 100%;
+}
+
+#product_page_section .main .product-image,
+.image-1,
+.image-2,
+.image-3 {
+    padding: 19px 23px;
+    border-radius: 8px;
+    border: 1px solid #74AF2E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 153px;
+}
+
+#product_page_section .main .product-main-image img {
+    display: block;
+    width: 100%;
+}
+
+#product_page_section .main .product-main-image {
+    width: 123%;
+    margin-left: 33px;
+    margin-top: 21px;
+}
+
+#product_page_section .main .product-details {
+  
+    flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column;
+}   
+
+
+#product_page_section .main .product-details .stock-button {
+    color: #74AF2E;
+    text-align: center;
+    font-family: "dmsans-regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 80px;
+    background: #EAF8DA;
+    padding: 10px 30px;
+    border: none;
+    margin-top:  22px;
+}
+
+#product_page_section .main .product-details h2 {
+    color: #000;
+    font-family: "dmsans-regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+  
+}
+
+#product_page_section .main .product-details p:nth-child(3) {
+    color: var(--neutral-300-paragraph, #747474);
+    font-family: "dmsans-regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+   
+}
+
+#product_page_section .main .product-details p:nth-child(4) {
+    color: #000;
+    font-family: "dmsans-regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+   
+}
+
+#product_page_section .main .product-details p:nth-child(5) {
+    color: #535766;
+    font-family: "dmsans-regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+ 
+}
+
+#product_page_section .main .product-details p:nth-child(6) {
+    color: var(--neutral-300-paragraph, #747474);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+#product_page_section .main .product-details .buttons{
+    margin-top:40px ;
+    grid-area:16px;
+}
+#product_page_section .main .product-details .buttons .order-now-button {
+    border-radius: 8px;
+    background: #74AF2E;
+    padding: 10px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;   
+    text-transform: capitalize;
+}
+
+#product_page_section .main .product-details .buttons .Enqiry-now-button {
+    border-radius: 8px;
+    border: 1px solid #74AF2E;
+    color: #74AF2E;
+    text-align: center;
+    font-family: "dmsans-regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 32px;
     text-transform: capitalize;
 }
